@@ -1,0 +1,24 @@
+.title {
+    float: left;
+    display: inline-flex !important;
+}
+
+.image {
+    display: flex;
+    float: left;
+    margin-top: 22px;
+    width: 37px;
+}
+
+.rotate {
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

@@ -8,3 +8,13 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+h6 {
+    margin-top: 1rem !important;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+}
